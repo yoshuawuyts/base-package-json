@@ -1,10 +1,10 @@
 const from = require('from2')
 
-module.exports = simplePackageJson
+module.exports = basePackageJson
 
 // Simple package.json readable stream
 // obj -> stream
-function simplePackageJson (opts) {
+function basePackageJson (opts) {
   opts = opts || {}
   const _name = opts.name || '<name>'
   const _version = opts.version || '1.0.0'

@@ -1,4 +1,4 @@
-# simple-package-json
+# base-package-json
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
@@ -10,12 +10,12 @@ satisfy `npm`. Easy to extend, useful for code generators.
 
 ## Installation
 ```sh
-$ npm install simple-package-json
+$ npm install base-package-json
 ```
 
 ## Usage
 ```js
-const package = require('simple-package-json')
+const package = require('base-package-json')
 const through = require('through2')
 
 package({ name: 'my-package' })
@@ -38,18 +38,18 @@ The following options are accepted:
   applications. Defaults to `undefined` (e.g. will not set).
 
 ## See Also
-- [simple-html-index](https://github.com/mattdesl/simple-html-index)
+- [base-html-index](https://github.com/mattdesl/base-html-index)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
 
-[npm-image]: https://img.shields.io/npm/v/simple-package-json.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/simple-package-json
-[travis-image]: https://img.shields.io/travis/yoshuawuyts/simple-package-json/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/yoshuawuyts/simple-package-json
-[codecov-image]: https://img.shields.io/codecov/c/github/yoshuawuyts/simple-package-json/master.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/yoshuawuyts/simple-package-json
-[downloads-image]: http://img.shields.io/npm/dm/simple-package-json.svg?style=flat-square
-[downloads-url]: https://npmjs.org/package/simple-package-json
+[npm-image]: https://img.shields.io/npm/v/base-package-json.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/base-package-json
+[travis-image]: https://img.shields.io/travis/yoshuawuyts/base-package-json/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/yoshuawuyts/base-package-json
+[codecov-image]: https://img.shields.io/codecov/c/github/yoshuawuyts/base-package-json/master.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/yoshuawuyts/base-package-json
+[downloads-image]: http://img.shields.io/npm/dm/base-package-json.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/base-package-json
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [standard-url]: https://github.com/feross/standard

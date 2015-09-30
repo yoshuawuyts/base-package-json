@@ -1,6 +1,6 @@
 {
-  "name": "simple-package-json",
-  "version": "1.0.1",
+  "name": "base-package-json",
+  "version": "1.0.0",
   "description": "Simple package.json readable stream",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "standard && npm run deps && NODE_ENV=test node test",
     "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test.js"
   },
-  "repository": "yoshuawuyts/simple-package-json",
+  "repository": "yoshuawuyts/base-package-json",
   "keywords": [
     "read",
     "stream",
