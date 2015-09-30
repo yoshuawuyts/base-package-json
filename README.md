@@ -38,7 +38,7 @@ The following options are accepted:
   applications. Defaults to `undefined` (e.g. will not set).
 
 ## See Also
-- [base-html-index](https://github.com/mattdesl/base-html-index)
+- [simple-html-index](https://github.com/mattdesl/simple-html-index)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
