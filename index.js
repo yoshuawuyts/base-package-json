@@ -2,7 +2,7 @@ const from = require('from2')
 
 module.exports = basePackageJson
 
-// Simple package.json readable stream
+// Basic package.json readable stream
 // obj -> stream
 function basePackageJson (opts) {
   opts = opts || {}

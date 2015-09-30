@@ -5,7 +5,7 @@
 [![Downloads][downloads-image]][downloads-url]
 [![js-standard-style][standard-image]][standard-url]
 
-Simple package.json readable stream. Sets the minimum amount of properties to
+Basic package.json readable stream. Sets the minimum amount of properties to
 satisfy `npm`. Easy to extend, useful for code generators.
 
 ## Installation

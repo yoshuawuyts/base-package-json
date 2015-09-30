@@ -1,7 +1,7 @@
 {
   "name": "base-package-json",
   "version": "1.0.0",
-  "description": "Simple package.json readable stream",
+  "description": "Basic package.json readable stream",
   "main": "index.js",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev",
