@@ -37,6 +37,9 @@ The following options are accepted:
 - __private__: if the module is publishable. It should be set to `false` for
   applications. Defaults to `undefined` (e.g. will not set).
 
+## See Also
+- [simple-html-index](https://github.com/mattdesl/simple-html-index)
+
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
 
